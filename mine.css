@@ -120,6 +120,7 @@ h2 {
 .ico {
   font-family: "Arial Unicode MS", "Lucida Sans Unicode";
   font-style: normal;
+  line-height: 1;
 }
 
 .addon,.btn-sm,.nav,textarea,input,select {
