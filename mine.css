@@ -44,11 +44,7 @@ a:active, a:hover {
   outline: 0;
 }
 
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-
-b, strong {
+b, strong, optgroup {
   font-weight: bold;
 }
 
@@ -77,10 +73,6 @@ img {
 
 svg:not(:root) {
   overflow: hidden;
-}
-
-figure {
-  margin: 1em 40px;
 }
 
 hr {
@@ -155,17 +147,8 @@ fieldset {
   padding: 0.35em 0.625em 0.75em;
 }
 
-legend {
-  border: 0;
-  padding: 0;
-}
-
 textarea {
   overflow: auto;
-}
-
-optgroup {
-  font-weight: bold;
 }
 
 table {
@@ -173,8 +156,7 @@ table {
   border-spacing: 0;
 }
 
-td,
-th {
+td, th {
   padding: 0;
 }
 
